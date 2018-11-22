@@ -1,0 +1,33 @@
+class PrimeNot
+{
+	int a;
+	PrimeOrNot(int a)
+	{
+	this.a=a;
+	}
+	void primeNot()
+		{
+	count=0;
+	for(int i=1;i<n;i++)
+	{
+	count++;		
+	}	
+		}
+	if(a%i==0)
+	{
+	System.out.println(a+"is prime number");
+	}
+	else
+	{
+	System.out.println(a+"is not prime number");
+	}
+class TestNotPrimeNot
+	{
+	public static void main(String args[])
+		{
+		PrimeNot obj=new PrimeNot(20);
+		obj.PrimeNot();
+		}
+
+	}
+}
